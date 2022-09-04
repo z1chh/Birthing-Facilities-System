@@ -37,19 +37,19 @@ Finally, I developed a simple console-based application program with a simple an
 ## Application Interaction Examples
 <p align="center">
   No midwife has the practitioner ID 0 (starts at 1) (database query):
-  <img src="pid 0.JPG">
+  <img src="Screenshots/pid 0.JPG">
 </p>
 <p align="center">
   No midwife with practioner ID 0 (application interaction):
-  <img src="pid 0 - app.JPG">
+  <img src="Screenshots/pid 0 - app.JPG">
 </p>
 <p align="center">
   Pregnancies of mother M1 (database query):
-  <img src="m1 pregnancies.JPG">
+  <img src="Screenshots/m1 pregnancies.JPG">
 </p>
-<p align="center">
+<p>
   Midwife with ID 2 views information on M1 (application interaction):
-  <img src="pid 2 with m1.JPG">
+  <img src="Screenshots/pid 2 with m1.JPG">
 </p>
 
 ## Additional Notes
