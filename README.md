@@ -39,10 +39,13 @@ Finally, I developed a simple console-based application program with a simple an
 <p>
   No midwife has the practitioner ID 0 (starts at 1) (database query):
   <img src="Screenshots/pid 0.JPG">
+  
   No midwife with practioner ID 0 (application interaction):
   <img src="Screenshots/pid 0 - app.JPG">
+  
   Pregnancies of mother M1 (database query):
   <img src="Screenshots/m1 pregnancies.JPG">
+  
   Midwife with ID 2 views information on M1 (application interaction):
   <img src="Screenshots/pid 2 with m1.JPG">
 </p>
@@ -51,12 +54,16 @@ Finally, I developed a simple console-based application program with a simple an
 <p>
   Tests associated with M2 (database query):
   <img src="Screenshots/m2 tests.JPG">
+  
   Appointment with M2 (from midwife with ID 2) (application interaction):
   <img src="Screenshots/appointment with m2.JPG">
+  
   Pregnancy notes of mother M2 (application interaction):
   <img src="Screenshots/pregnancy notes.JPG">
+  
   New test prescription for M2 (application interaction):
   <img src="Screenshots/new test.JPG">
+  
   Tests associated with M2 (database query):
   <img src="Screenshots/m2 tests updated.JPG">
 </p>
