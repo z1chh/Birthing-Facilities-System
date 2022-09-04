@@ -74,15 +74,18 @@ Finally, I developed a simple console-based application program with a simple an
   Index to retrieve the mother's address given the phone number only:
   
   Note that I stated previously (in the pending constraints section) that a phone number should be unique not only with a table, but across the whole tables. Therefore, it is valid to create a unique index on a phone number.
+  
   <img src="Screenshots/indexing example.JPG">
 </p>
 
 ### Data Analytics
 <p>
   Query to produce the number of births for each month (only babies born):
+  
   <img src="Screenshots/births per month.JPG">
   
   Chart:
+  
   <img src="Screenshots/births per month - chart.JPG">
 </p>
 
