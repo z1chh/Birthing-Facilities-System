@@ -14,7 +14,7 @@ The next step was to implement the database by creating tables and populating th
 
 Finally, I developed a simple console-based application program with a simple and friendly user-interface for midwives to use. This JDBC program allows midwives to interact with the system via a menu to perform some actions, such as managing notes for their clients or viewing their appointments.
 
-The Tables folder contains .sh files that can be used to run the provided sql files to create tables, load data, and drop tables. Note that you must run createtbl.sh and loaddata.sh in order to populate the database if you wish to reproduce the same results on your own DB2.
+The [Tables](https://github.com/z1chh/Birthing-Facilities-System/tree/main/Tables) folder contains .sh files that can be used to run the provided sql files to create tables, load data, and drop tables. Note that you must run createtbl.sh and loaddata.sh in order to populate the database if you wish to reproduce the same results on your own DB2.
 
 
 ## Relational Translation
