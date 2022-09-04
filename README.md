@@ -35,19 +35,23 @@ Finally, I developed a simple console-based application program with a simple an
 *	Attendance(sid, cid), sid references online_information_session, cid references couple
 
 ## Application Interaction Examples
-<p align="center">
+<p>
   No midwife has the practitioner ID 0 (starts at 1) (database query):
   <img src="Screenshots/pid 0.JPG">
-</p>
-<p align="center">
   No midwife with practioner ID 0 (application interaction):
   <img src="Screenshots/pid 0 - app.JPG">
-</p>
-<p align="center">
   Pregnancies of mother M1 (database query):
   <img src="Screenshots/m1 pregnancies.JPG">
+  Midwife with ID 2 views information on M1 (application interaction):
+  <img src="Screenshots/pid 2 with m1.JPG">
 </p>
 <p>
+  No midwife has the practitioner ID 0 (starts at 1) (database query):
+  <img src="Screenshots/pid 0.JPG">
+  No midwife with practioner ID 0 (application interaction):
+  <img src="Screenshots/pid 0 - app.JPG">
+  Pregnancies of mother M1 (database query):
+  <img src="Screenshots/m1 pregnancies.JPG">
   Midwife with ID 2 views information on M1 (application interaction):
   <img src="Screenshots/pid 2 with m1.JPG">
 </p>
