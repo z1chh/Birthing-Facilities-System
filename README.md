@@ -5,6 +5,16 @@
   <img src="Midwife ER.jpg">
 </p>
 
+## Project Overview
+I first carefully designed a relational model, as shown above, to represent the entities, their attributes, and the relations between entity sets.
+
+I then modelled the relational translation with its pending constraints (constraints that cannot be enforced within the relational translation).
+
+The next step was to implement the database by creating tables and populating them with some values.
+
+Finally, I developed a simple console-based application program with a simple and friendly user-interface for midwives to use. This JDBC program allows midwives to interact with the system via a menu to perform some actions, such as managing notes for their clients or viewing their appointments.
+
+
 ## Relational Translation
 * Mother(qchcardid, name, phone_number, email, profession, dob, address, estimated_birth_date, blood_type)
 * Baby(bid, qchcardid, dob, birth_time, name, gender, blood_type), qchcardid references mother
@@ -24,5 +34,23 @@
 *	Registration(sid, cid), sid references online_information_session, cid references couple
 *	Attendance(sid, cid), sid references online_information_session, cid references couple
 
+## Application Interaction Examples
+<p align="center">
+  No midwife has the practitioner ID 0 (starts at 1) (database query):
+  <img src="pid 0.JPG">
+</p>
+<p align="center">
+  No midwife with practioner ID 0 (application interaction):
+  <img src="pid 0 - app.JPG">
+</p>
+<p align="center">
+  Pregnancies of mother M1 (database query):
+  <img src="m1 pregnancies.JPG">
+</p>
+<p align="center">
+  Midwife with ID 2 views information on M1 (application interaction):
+  <img src="pid 2 with m1.JPG">
+</p>
 
-
+## Additional Notes
+The GoBabbyApp.java file imports other java files from a getters package (the other .java files are in the getters folder). Without this, the code will not compile and run.
